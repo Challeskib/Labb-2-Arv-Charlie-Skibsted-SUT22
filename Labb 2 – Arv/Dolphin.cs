@@ -8,16 +8,10 @@ namespace Labb_2___Arv
     {
         public int JumpHeight = 0;
 
-        
-        
-        public Dolphin(string name, string colour, string sex, int age, int weight, int swimSpeed, int jumpHeight)
+
+
+        public Dolphin(string name, string colour, string sex, int age, int weight, int swimSpeed, int jumpHeight) : base(name, colour, sex, age, weight, swimSpeed)
         {
-            Name = name;
-            Colour = colour;
-            Sex = sex;
-            Age = age;
-            Weight = weight;
-            SwimSpeed = swimSpeed;
             JumpHeight = jumpHeight;
         }
 
@@ -26,7 +20,7 @@ namespace Labb_2___Arv
 
         }
 
-       
+
 
         public void Jump()
         {

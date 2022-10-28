@@ -21,6 +21,20 @@ namespace Labb_2___Arv
             Console.WriteLine($"Weight = {Weight}");
         }
 
+        public Animal(string name, string colour, string sex, int age, int weight)
+        {
+            Name = name;
+            Colour = colour;
+            Sex = sex;
+            Age = age;
+            Weight = weight;
+        }
+
+        public Animal()
+        {
+
+        }
+
         public void Sleep()
         {
             Console.WriteLine($"{Name} sleeps..... zzzzzzzz.... zzzzzzz");

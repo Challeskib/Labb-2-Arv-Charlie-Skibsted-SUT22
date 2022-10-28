@@ -8,14 +8,8 @@ namespace Labb_2___Arv
     {
         public int NumberOfTeeth = 0;
 
-        public Shark(string name, string colour, string sex, int age, int weight, int swimSpeed, int numberOfTeeth)
+        public Shark(string name, string colour, string sex, int age, int weight, int swimSpeed, int numberOfTeeth) : base(name, colour, sex, age, weight, swimSpeed)
         {
-            Name = name;
-            Colour = colour;
-            Sex = sex;
-            Age = age;
-            Weight = weight;
-            SwimSpeed = swimSpeed;
             NumberOfTeeth = numberOfTeeth;
         }
 
@@ -23,7 +17,6 @@ namespace Labb_2___Arv
         {
 
         }
-        
 
         public void Bite()
         {

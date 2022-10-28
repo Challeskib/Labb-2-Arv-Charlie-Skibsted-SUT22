@@ -9,17 +9,12 @@ namespace Labb_2___Arv
         // Centimeters
         public int TailLength = 0;
 
-        public Cat(string name, string colour, string sex, int age, int weight, int taillenght)
+        public Cat(string name, string colour, string sex, int age, int weight, int taillenght) : base(name, colour, sex, age, weight)
         {
-            Name = name;
-            Colour = colour;
-            Sex = sex;
-            Age = age;
-            Weight = weight;
             TailLength = taillenght;
         }
 
-        public Cat() //default constructor
+        public Cat() : base() //default constructor
         {
 
         }

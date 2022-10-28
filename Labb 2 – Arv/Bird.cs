@@ -10,15 +10,9 @@ namespace Labb_2___Arv
         public int WingLength = 0;
 
 
-        public Bird(string name, string colour, string sex, int age, int weight, int winglength)
+        public Bird(string name, string colour, string sex, int age, int weight, int winglength) : base(name, colour, sex, age, weight)
         {
-            Name = name;
-            Colour = colour;
-            Sex = sex;
-            Age = age;
-            Weight = weight;
             WingLength = winglength;
-
         }
 
         public Bird() //default constructor

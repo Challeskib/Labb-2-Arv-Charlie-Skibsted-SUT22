@@ -9,16 +9,9 @@ namespace Labb_2___Arv
         //  km/h
         public int SwimSpeed = 0;
 
-
-        public Fish(string name, string colour, string sex, int age, int weight, int swimSpeed)
+        public Fish(string name, string colour, string sex, int age, int weight, int swimSpeed) : base(name, colour, sex, age, weight)
         {
-            Name = name;
-            Colour = colour;
-            Sex = sex;
-            Age = age;
-            Weight = weight;
             SwimSpeed = swimSpeed;
-
         }
 
         public Fish() //default constructor
