@@ -49,6 +49,8 @@ namespace Labb_2___Arv
             flipper.Jump();
 
 
+
+
         }
     }
 }
